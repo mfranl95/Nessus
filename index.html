@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Nessus</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/cue.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
+	<link rel="stylesheet" href="css/mediaelementplayer-legacy.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/szl6qoj.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+	<div class="preloader">
+		<div class="preloader_image fa-spin"></div>
+	</div>
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal"> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<span aria-hidden="true">
+			<i class="rt-icon2-cross2"></i>
+		</span>
+	</button>
+		<div class="widget widget_search">
+			<form method="get" class="searchform search-form form-inline" action="./">
+				<div class="form-group bottommargin_0"> <input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input"> </div> <button type="submit" class="theme_button no_bg_button">Search</button> </form>
+		</div>
+	</div>
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls with_padding">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+		</div>
+	</div>
+	<!-- eof .modal -->
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+			<!-- template sections -->
+			<section class="page_toplogo ds table_section table_section_md" style="background-image: url('images/header.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-sm-12 col-md-push-4 text-center"> <a href="home.html" class="logo top_logo">
+                    <img src="images/logo-nessus.png" alt="">
+                </a>
+							<!-- header toggler --><span class="toggle_menu"><span></span></span>
+						</div>
+						<div class="col-md-4 col-sm-6 col-md-pull-4 text-center text-md-left">
+						</div>
+						<div class="col-md-4 col-sm-6 text-center text-md-right">
+							<div class="header_right_buttons display_table_cell text-right hidden-xs"> <a href="#" class="theme_button inverse min_width_button">Donate</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<header class="page_header header_color bordered_items">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper">
+									<ul class="mainmenu nav sf-menu">
+										<li class="active"> <a href="#canvas">Home</a>
+										</li>
+										<li> <a href="#about">About</a> </li>
+										<li> <a href="#resources">Resources</a> </li>
+										<li> <a href="#news">News</a> </li>
+										<li> <a href="#contact">Contact</a> </li>
+									</ul>
+							</nav>
+							<!-- eof main nav -->
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="intro_section page_mainslider ds">
+				<div class="flexslider" data-dots="true" data-nav="te">
+					<ul class="slides">
+						<li> <img src="images/slide01.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h2> <span class="small"></span> ACCEPTANCE </h2>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<p>The first step toward change is awareness. The second step is acceptance.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li> <img src="images/slide02.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h2> <span class="small"></span>STRENGTH</h2>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<p>Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+						<li> <img src="images/slide03.jpg" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12 text-center">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="fadeInUp">
+													<h2> <span class="small"></span> RENEWAL </h2>
+												</div>
+												<div class="intro-layer" data-animation="fadeInUp">
+													<p>The first step towards getting somewhere is to decide that you are not going to stay where you are.</p>
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+			<section id="about" class="ds ms page_about parallax section_padding_top_130 section_padding_bottom_75 table_section table_section_md columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<h2 class="section_header">About</h2>
+							<p style="font-size: 20px;">Inspired by the #MeToo Movement, Nessus is a non-profit organization that provides of victims of sexual harassment and sexual assualt in either <br>the home, school or workplace resources to aid their path to recovery. We aspire to give victims of all ages, race, gender, and sexual orientation not only a safe space, but a place where they can be heard and understood.</p>
+							<div class="content-justify vertical-center content-margins topmargin_25 text-center">
+								<div class="text-center">
+									<h3 class="highlight bottommargin_0 text-center">-Stacey Young &#38 Josh Lindman </h3>
+									<p class="small-text grey">Founders</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="resources" class="ds ms section_padding_top_150 section_padding_bottom_150" style="background-image: url('images/resources-bg.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header" style="color:#000;">Resources</h2>
+							<div class="owl-carousel topmargin_60" data-dots="false" data-nav="true" data-responsive-lg="3">
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/01.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">Darkness to Light</a> </h3>
+										<p class="small-text bottommargin_0"> 1-866-FOR-LIGHT </p>
+										<div class="entry-content">
+											<p> Darkness to Light offers local information and resources about sexual abuse.Darkness to Light also has resources for reporting child sex abuse and human trafficking. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/02.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">Safe Horizon</a> </h3>
+										<p class="small-text bottommargin_0"> 1-800-621-HOPE </p>
+										<div class="entry-content">
+											<p>Safe Horizon offers in-person counseling, group therapy, legal aid, and other resources for domestic violence survivors, rape, incest, abuse, and sexual assault survivors. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/03.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">SCESA</a> </h3>
+										<p class="small-text bottommargin_0">Sisters of Color Ending Sexual Assault </p>
+										<div class="entry-content">
+											<p> SCESA is an advocacy organization that has an excellent resources page for women of color looking for treatment centers dedicated to serving sexual assault survivors near them. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/04.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">The Breathe Network</a> </h3>
+										<p class="small-text bottommargin_0">All-Natural Healing </p>
+										<div class="entry-content">
+											<p> The Breathe Network connects sexual trauma survivors to practitioners who offer sliding-scale, trauma-informed, holistic healing arts and support. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/05.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">1in6</a> </h3>
+										<p class="small-text bottommargin_0"> For Men </p>
+										<div class="entry-content">
+											<p> 1in6 is a resource for men who have experienced unwanted or abusive sexual experiences. Offers recovery information and men’s stories of trauma and recovery. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+								<div class="vertical-item content-absolute hover-entry-content">
+									<div class="item-media mutted-media ds"> <img src="images/events/06.jpg" alt="">
+									</div>
+									<div class="item-content cs">
+										<h3 class="entry-title bottommargin_0"> <a href="team-single.html">Forge (Trans)</a> </h3>
+										<p class="small-text bottommargin_0"> 414-559-2123 </p>
+										<div class="entry-content">
+											<p> Forge is a Milwaukee-based organization dedicated to advocating for and protecting the lives of transgender/non-binary people and their loved ones. </p>
+											<p class="topmargin_20 event_buttons"> 
+											 <a href="#" class="theme_button inverse">Visit Website</a> </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="news" class="ds ms section_padding_top_150 section_padding_bottom_130 page_footer" style="background-image: url('images/testimonies-bg.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header" style="color:#000;">Testimonies</h2>
+							<div class="owl-carousel topmargin_60" data-responsive-lg="3" data-dots="true">
+								<article class="vertical-item content-padding with_background text-center offset_button">
+									<div class="item-media top_rounded overflow_hidden"> <img src="images/gallery/11.jpg" alt="">
+										<div class="media-links"> <a href="blog-single-right.html" class="abs-link"></a> </div>
+									</div>
+									<div class="item-content">
+										<header class="entry-header">
+											<div class="entry-meta small-text content-justify"> <span class="greylinks">
+										<a href="blog-single-right.html">
+											<time datetime="2017-10-03T08:50:40+00:00">
+												13 aug 2018 
+											</time>
+										</a>
+									</span> <span class="categories-links highlightlinks">
+										<a href="#0">Poetry</a>
+									</span> </div>
+											<h4 class="entry-title"> <a href="#">Porcelain Doll</a> </h4>
+										</header>
+										<div class="entry-content">
+											<p class="content-3lines-ellipsis">A poem written by Leah describing years of sexual abuse and how she managed to overcome it.</p> <span class="button_wrap">
+									<a href="#" class="theme_button color1">Read More</a>
+								</span> </div>
+									</div>
+								</article>
+								<article class="vertical-item content-padding with_background text-center offset_button">
+									<div class="item-media overflow_hidden"> <img src="images/gallery/18.jpg" alt="">
+										<div class="media-links"> <a href="blog-single-right.html" class="abs-link"></a> </div>
+									</div>
+									<div class="item-content">
+										<header class="entry-header">
+											<div class="entry-meta small-text content-justify"> <span class="greylinks">
+										<a href="blog-single-right.html">
+											<time datetime="2017-10-03T08:50:40+00:00">
+												24 sept 2018 
+											</time>
+										</a>
+									</span> <span class="categories-links highlightlinks">
+										<a href="#0">Personal</a>
+									</span> </div>
+											<h4 class="entry-title"> <a href="#">He's A Man Though</a> </h4>
+										</header>
+										<div class="entry-content">
+											<p class="content-3lines-ellipsis">Greg opens up about his own sexual assault and how it almost led him down a dark path that nearly destroyed him.</p> <span class="button_wrap">
+									<a href="#" class="theme_button color1">Read More</a>
+								</span> </div>
+									</div>
+								</article>
+								<article class="vertical-item content-padding with_background text-center offset_button">
+									<div class="item-media overflow_hidden"> <img src="images/gallery/19.jpg" alt="">
+										<div class="media-links"> <a href="blog-single-right.html" class="abs-link"></a> </div>
+									</div>
+									<div class="item-content">
+										<header class="entry-header">
+											<div class="entry-meta small-text content-justify"> <span class="greylinks">
+										<a href="blog-single-right.html">
+											<time datetime="2017-10-03T08:50:40+00:00">
+												29 oct 2018 
+											</time>
+										</a>
+									</span> <span class="categories-links highlightlinks">
+										<a href="#0">News</a>
+									</span> </div>
+											<h4 class="entry-title"> <a href="#">Money-Makers</a> </h4>
+										</header>
+										<div class="entry-content">
+											<p class="content-3lines-ellipsis">College students discuss how their college handles complaints of sexual assaults by student athletes.</p> <span class="button_wrap">
+									<a href="#" class="theme_button color1">Read More</a>
+								</span> </div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<footer class="page_footer ds section_padding_top_100 section_padding_bottom_100 columns_padding_25" style="background-image: url('images/footer-bg.jpg');">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-6 text-center">
+							<div class="widget widget_mailchimp">
+								<h4 class="widget-title" style="color: #dddbc4;">Our Newsletter</h4>
+								<form class="signup" action="./" method="get">
+									<p class="bottommargin_20">Subscribe to our mailing list to receive new updates</p>
+									<div class="form-group-wrap">
+										<div class="form-group"> <label for="mailchimp" class="sr-only">Enter your email here</label> <input name="email" type="email" id="mailchimp" class="mailchimp_email form-control" placeholder="Your Email Address*"> </div> <button type="submit" class="theme_button color1 no_bg_button">Subscribe</button>										</div>
+									<div class="response"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<section class="ds ms page_copyright section_padding_top_40 section_padding_bottom_40">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<p>&copy; Nessus 2018.</p>
+							<div> <a class="social-icon color-bg-icon round-icon socicon-facebook" href="#" title="Facebook"></a> <a class="social-icon color-bg-icon round-icon socicon-twitter" href="#" title="Twitter"></a> <a class="social-icon color-bg-icon round-icon socicon-instagram"
+								    href="#" title="Instagram"></a> </div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
